@@ -57,11 +57,11 @@ node_load15
 ```
 - количество свободной оперативной памяти;
 ```promql
-node_memory_MemAvailable_bytes
+node_memory_MemAvailable_bytes / (1024 * 1024 * 1024)
 ```
 - количество места на файловой системе.
 ```promql
-node_filesystem_avail_bytes
+node_filesystem_avail_bytes{mountpoint="/"} / (1024 * 1024 * 1024)
 ```
 
 Для решения этого задания приведите promql-запросы для выдачи этих метрик, а также скриншот получившейся Dashboard.
