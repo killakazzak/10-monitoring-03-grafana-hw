@@ -53,7 +53,23 @@
   
 - CPULA 1/5/15;
 - количество свободной оперативной памяти;
+
+```promql
+node_load1
+node_load5
+node_load15
+```
+
+
+```promql
+node_memory_MemAvailable_bytes
+```
+
 - количество места на файловой системе.
+
+```promql
+node_filesystem_avail_bytes
+```
 
 Для решения этого задания приведите promql-запросы для выдачи этих метрик, а также скриншот получившейся Dashboard.
 
