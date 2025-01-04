@@ -73,7 +73,8 @@ node_filesystem_avail_bytes
 1. Создайте для каждой Dashboard подходящее правило alert — можно обратиться к первой лекции в блоке «Мониторинг».
 2. В качестве решения задания приведите скриншот вашей итоговой Dashboard.
 
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/d121bd43-b99d-4b5c-b9fc-36675b21d07a)
+
 
 
 ## Задание 4
