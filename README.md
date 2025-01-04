@@ -66,6 +66,8 @@ node_filesystem_avail_bytes
 
 Для решения этого задания приведите promql-запросы для выдачи этих метрик, а также скриншот получившейся Dashboard.
 
+![image](https://github.com/user-attachments/assets/4a266645-dbec-4c1d-94c4-86c0d0cd0bf4)
+
 ## Задание 3
 
 1. Создайте для каждой Dashboard подходящее правило alert — можно обратиться к первой лекции в блоке «Мониторинг».
