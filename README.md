@@ -46,27 +46,20 @@
 Создайте Dashboard и в ней создайте Panels:
 
 - утилизация CPU для nodeexporter (в процентах, 100-idle);
-
-  ```promql
-  100 - avg(irate(node_cpu_seconds_total{mode="idle"}[5m])) * 100
-  ```
-  
+```promql
+100 - avg(irate(node_cpu_seconds_total{mode="idle"}[5m])) * 100
+```
 - CPULA 1/5/15;
-- количество свободной оперативной памяти;
-
 ```promql
 node_load1
 node_load5
 node_load15
 ```
-
-
+- количество свободной оперативной памяти;
 ```promql
 node_memory_MemAvailable_bytes
 ```
-
 - количество места на файловой системе.
-
 ```promql
 node_filesystem_avail_bytes
 ```
