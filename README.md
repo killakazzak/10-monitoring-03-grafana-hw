@@ -221,7 +221,8 @@ node_filesystem_avail_bytes{mountpoint="/"} / (1024 * 1024 * 1024)
       },
       "yaxes": [
         {
-          "format": "short",
+          "$$hashKey": "object:195",
+          "format": "percent",
           "label": null,
           "logBase": 1,
           "max": null,
@@ -229,6 +230,7 @@ node_filesystem_avail_bytes{mountpoint="/"} / (1024 * 1024 * 1024)
           "show": true
         },
         {
+          "$$hashKey": "object:196",
           "format": "short",
           "label": null,
           "logBase": 1,
@@ -693,7 +695,7 @@ node_filesystem_avail_bytes{mountpoint="/"} / (1024 * 1024 * 1024)
   "timezone": "",
   "title": "Dashboard",
   "uid": "-jkDZ9NHz",
-  "version": 5
+  "version": 6
 }
 ```
 ---
