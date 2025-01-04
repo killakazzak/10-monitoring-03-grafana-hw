@@ -73,7 +73,7 @@ node_filesystem_avail_bytes{mountpoint="/"} / (1024 * 1024 * 1024)
 1. Создайте для каждой Dashboard подходящее правило alert — можно обратиться к первой лекции в блоке «Мониторинг».
 2. В качестве решения задания приведите скриншот вашей итоговой Dashboard.
 
-![image](https://github.com/user-attachments/assets/d121bd43-b99d-4b5c-b9fc-36675b21d07a)
+![image](https://github.com/user-attachments/assets/cddbf430-789b-4e82-9c02-81ae5b2c16d9)
 
 
 
